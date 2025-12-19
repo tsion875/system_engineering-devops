@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# This script displays all currently running processes in a user-oriented, hierarchical format including processes without a TTY
+
+ps -ef --forest
+
