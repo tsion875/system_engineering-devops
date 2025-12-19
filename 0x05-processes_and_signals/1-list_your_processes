@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 # This script lists all running processes with only UID and command fields
 
-ps -eo uid,command
-
+ps -eo uid
