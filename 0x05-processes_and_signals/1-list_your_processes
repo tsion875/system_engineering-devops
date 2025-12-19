@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# This script lists all running processes with only UID and command fields
+# Display only the UID header and the UID of the first process
 
-ps -eo uid
+ps -eo uid | head -n 2
