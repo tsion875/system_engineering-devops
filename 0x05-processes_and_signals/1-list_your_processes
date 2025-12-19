@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script displays all currently running processes in a user-oriented, hierarchical format including processes without a TTY
+# This script lists all running processes with only UID and command fields
 
-ps -ef --forest
+ps -eo uid,command
 
